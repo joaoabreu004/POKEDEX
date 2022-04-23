@@ -1,0 +1,58 @@
+/* HEADER */
+.header__pokemon{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    box-shadow: 0px 4px 4px rgba(255, 5, 5, 0.16);
+}
+
+
+.header__pokemon__logo{
+    width: 200px;
+    display: flex;
+    padding: 10px 0;
+}
+
+.header__pokemon__pokebola{
+    width: 75px;
+    height: 75px;
+    padding: 10px 0;
+
+}
+
+
+
+/* ==================================== */
+
+main{
+    padding: 2em 0;
+}
+
+.pokedex{
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pokedex__left{
+    height: 500px;
+    width: 350px;
+    background: #ff0000;
+}
+
+
+
+.pokedex__middle{
+    height: 496px;
+    width: 45px;
+    background: #ff0000;
+    border: 3px solid #000000;
+    box-shadow: inset 15px 0px 1px #07070738;
+}
+
+.pokedex__right{
+    height: 500px;
+    width: 350px;
+    background: #ff0000;
+}
