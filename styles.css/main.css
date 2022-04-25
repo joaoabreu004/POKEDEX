@@ -29,11 +29,59 @@ main{
 }
 
 .pokedex{
-    padding: 4em;
+    padding: 10em 4em 4em ;
     display: flex;
     justify-content: center;
+
 }
 
+
+.pokedex__left__partedeCima{
+    border: 2px solid black;
+    height: 25%;
+    border-radius: 10px 10px 0 0;
+    width: 101%;
+    top: -25.5%;
+    background: #ff0000;
+    position: relative;
+}
+
+.left__partedeCima__GrandeBola::before{
+    content: "";
+    display: block;
+    position: relative;
+    height: 75%;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #0D87FF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left__partedeCima__GrandeBola{
+    height: 70%;
+    width: 24%;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #ffffff;
+    /* margin: 3% 0 0 3%; */
+    margin: 1em 0 0 1em;
+}
+
+.left__partedeCima__GrandeBola::after {
+    content: "";
+    /* display: block; */
+    position: absolute;
+    height: 16%;
+    width: 7%;
+    background-color: #87ceeb;
+    top: 32%;
+    left: 10%;
+    transform: rotate(-45deg);
+    border-radius: 40px 30px;
+}
 
 .pokedex__left{
     height: 500px;
