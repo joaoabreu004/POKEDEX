@@ -51,14 +51,15 @@ main{
     left: -0.5%;
     top: -25.5%;
     background: #ff0000;
+    border-bottom: 2px;
 }
 
 .left__partedeCima__GrandeCirculo::before{
     content: "";
     display: block;
     position: relative;
-    height: 75%;
-    width: 75%;
+    height: 80%;
+    width: 78%;
     border: 2px solid black;
     border-radius: 50%;
     background-color: #0D87FF;
@@ -69,15 +70,15 @@ main{
 
 .left__partedeCima__GrandeCirculo{
     height: 70%;
-    width: 67%;
+    width: 60%;
     border: 2px solid black;
     border-radius: 50%;
     background-color: #ffffff;
-    /* margin: 3% 0 0 3%; */
     margin: 1em 0 0 1em;
     grid-row: 1/ 3;
     grid-column: 1 / 3;
-    margin: 15px 0 0 30px;
+    margin: 7px 0 0 20px;
+    box-shadow: inset 0px 0px 2px 1px black; 
 }
 
 
@@ -85,17 +86,18 @@ main{
     content: "";
     /* display: block; */
     position: absolute;
-    height: 12%;
-    width: 5%;
+    height: 11%;
+    width: 4%;
     background-color: #87ceeb;
-    top: 36%;
-    left: 13%;
+    top: 26%;
+    left: 10%;
     transform: rotate(-45deg);
-    border-radius: 40px 30px;
+    border-radius: 50px 30px;
 }
 
 .lista__pequenosCirculos{
     display: flex;
+    transform: translateX(-20%);
 }
 
 .lista__pequenosCirculos li{
@@ -132,6 +134,81 @@ main{
 
 
 
+
+/* =========================================== */
+
+.pokedex__left__bordatela{
+    height: 65%;
+    width: 80%;
+    background: #ffffff;
+    border: 2px solid #000000;
+    position: relative;
+    top: -20%;
+    left: 9%;
+    box-shadow: inset 0px 0px 2px 1px black;
+    border-radius: 5px 5px 5px 15%; 
+}
+
+
+
+.pokedex__left__tela{
+    height: 64%;
+    width: 83%;
+    background: #000000;
+    border: 1px solid #000000;
+    position: relative;
+    left: 9%;
+    box-shadow: inset 0px 0px 7px 8px #74757480;
+    border-radius: 10px;
+}
+
+.pokedex__left__bordatela__listsdots{
+    height: 7%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.pokedex__left__bordatela__listsdots li{
+    height: 10px;
+    width: 12px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin: 5px 0 0 5px;
+}
+
+
+/* BOTÃO VERMELHO E ENTRADAS DE AR */
+
+.pokedex__left__status{
+    height: 14%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pokedex__left__status__bolinhaVermelha{
+    height: 75%;
+    width: 13%;
+    border: 2px solid #000000;
+    background-color: #ff0000;
+    border-radius: 50%;
+}
+
+.pokedex__left__status__entradaAr li{
+    height: 0px;
+    width: 40px;
+    border: 2px solid #000000;
+    background-color: #000000;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* ============================================= */
+
+
 .pokedex__middle::before{
     content: "";
     position: relative;
@@ -140,7 +217,7 @@ main{
     width: 100%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    left: 0;
+    left: -2.5%;
     top: -10%;
     box-shadow:  inset 15px 0px 1px #07070738;
 }
@@ -158,6 +235,6 @@ main{
     width: 375px;
     background: #ff0000;
     border: 2px solid #000000;
-
 }
+
 
