@@ -253,6 +253,98 @@ main{
     border-radius: 20px;
 }
 
+
+.pokedex__left__botoes{
+    position: relative;
+    top: 13%;
+    height: 30%;
+    display: flex;
+}
+
+.pokedex__left__botoes__btnBlack{
+    width: 20%;
+    height: 50%;
+    background-color: #000000;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.pokedex__left__botoes__luzes ul{
+    display: flex;
+
+}
+
+.pokedex__left__botoes__luzes li{
+    height: 8px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#luzLaranja{
+    background-color: #ba4a00;
+}
+
+#luzAzul{
+    background-color: #87ceeb;
+}
+
+.pokedex__left__botoes__pt2{
+    height: 60px;
+    margin-top: 10px;
+    display: flex; 
+}
+
+.pokedex__left__botoes__telaVerde{
+    height: 70%;
+    width: 70%;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #21903f;
+}
+
+.pokedex__left__botoes__buttonDirections{
+    height: 30%;
+    width: 30%;
+    border: 2px solid #000000;
+    background-color: #000000 ;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 5%;
+ 
+}
+
+
+.pokedex__left__botoes__buttonDirections::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    background-color: #000000;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    left: -2%;
+    top: -10%;
+ 
+    
+}
+
+.pokedex__left__botoes__buttonDirections::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 5px;
+    left: 0;
+    top: 0;
+}
+
+
 /* ============================================= */
 
 
