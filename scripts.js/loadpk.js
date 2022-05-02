@@ -1,5 +1,5 @@
 function loadpokemon(){
-    let url = 'https://pokeapi.co/api/v2/pokemon/898'; 
+    let url = 'https://pokeapi.co/api/v2/pokemon/38'; 
     fetch(url)
         .then((response) => {
             return response.json(); 
@@ -12,7 +12,7 @@ function loadpokemon(){
             document.querySelector(".nome").innerHTML = dados["name"]; 
             //chave da api é "name"
             let img = dados['sprites']['front_default'];
-            document.querySelector(".pic").setAttribute('src', img); 
+            document.querySelector(".pokedex__left__tela__pic").setAttribute('src', img); 
             document.querySelector(".id").innerHTML = dados["id"]; 
         })
 

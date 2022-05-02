@@ -183,6 +183,8 @@ main{
 
 
 .pokedex__left__tela{
+    display: flex;
+    justify-content: center;
     height: 64%;
     width: 83%;
     background: #000000;
@@ -207,6 +209,11 @@ main{
     border-radius: 50%;
     border: 2px solid #000000;
     margin: 5px 0 0 5px;
+}
+
+.pokedex__left__tela__pic{
+    padding-top: 10px;
+    height: 90%;
 }
 
 
@@ -264,10 +271,26 @@ main{
 .pokedex__left__botoes__btnBlack{
     width: 20%;
     height: 50%;
-    background-color: #000000;
+    background-color: #949494;
+    transition: 0.3s;
     border-radius: 50%;
     border: 2px solid black;
 }
+
+.pokedex__left__botoes__btnBlack:hover{
+    background-color: #5ba2e8;
+    transition: 0.3s;
+    
+}
+
+.pokedex__left__botoes__btnBlack img{
+    position:relative;
+    width: 85%;
+    height: 85%; 
+    left: 7%;
+    top: 8%;
+}
+
 
 .pokedex__left__botoes__luzes ul{
     display: flex;
@@ -385,7 +408,7 @@ main{
     top: 8%;
     left: 4%;
     width: 90%;
-    height: 50%;
+    height: 35%;
     border: 2px solid black;
     border-radius: 10px;
     position: relative;
@@ -403,5 +426,26 @@ main{
     left: 4%;
     top: 10%;
 } 
+
+.entradasdear{  
+    display: flex;
+    justify-content: end; 
+    position: relative;
+    top: 13%;
+    display: flex;
+    height: 20%;
+    margin-right: 20px;
+}
+
+
+.entradasdear li{
+    top: 20%;
+    height: 5%;
+    width: 10%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #000000;
+    margin: 0 0 0 2px;
+}
 
 
