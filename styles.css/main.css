@@ -369,11 +369,39 @@ main{
     box-shadow: inset 15px 0px 1px #07070738;
 }
 
+
+/* RIGHT PART */
+
 .pokedex__right{
     height: 500px;
     width: 375px;
     background: #ff0000;
     border: 2px solid #000000;
 }
+
+
+.telainformacoes{
+    position: relative;
+    top: 8%;
+    left: 4%;
+    width: 90%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    background-color: #000000;
+    box-shadow: inset 0px 0px 7px 8px #74757480;
+}
+
+.botoesazuis{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #0D87FF;
+    height: 15%;
+    width: 90%;
+    left: 4%;
+    top: 10%;
+} 
 
 
