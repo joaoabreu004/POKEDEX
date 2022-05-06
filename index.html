@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles.css/main.css">
     <title>POKEDÉX</title>
     <link rel="shortcut icon" href="pokebolafav.png" type="image/x-icon">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
 </head>
 <body>
     <header class="header__pokemon">
@@ -16,104 +19,26 @@
     </header>
 
     <main>
-        <section class="pokedex">
-            <div class="pokedex__left">
-                <div class="pokedex__left__partedeCima">
-                    <div class="left__partedeCima__GrandeCirculo"></div>
-                    <div class="left__partedeCima__PequenosCirculos">
-                        <ul class="lista__pequenosCirculos">
-                            <li class="bolinha b_vermelha"></li>
-                            <li class="bolinha b_amarela"></li>
-                            <li class="bolinha b_verde"></li>
-                        </ul>
-                    </div>
-
-                    <div class="divisao__left"></div>
-                    <div class="divisao__right"></div>
-
-                </div>
-                
-                <div class="pokedex__left__bordatela">
-                
-                    <ul class="pokedex__left__bordatela__listsdots">
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    
-                    <div class="pokedex__left__tela">
-                        <img class="pokedex__left__tela__pic">
-                    </div>
-
-
-                    <div class="pokedex__left__status">
-                        <div class="pokedex__left__status__bolinhaVermelha"></div>
-                    
-                        <div class="pokedex__left__status__som">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="pokedex__left__botoes">
-                        <div class="pokedex__left__botoes__btnBlack">
-                            <img src="imagens/botao.png" alt="">
-
-                        </div>
-
-                        <div class="pokedex__left__botoes__luzes">
-                            <ul>
-                                <li id="luzLaranja"></li>
-                                <li id="luzAzul"></li>
-                            </ul>
-                        </div>
-
-                       
-                    </div>
-
-                    <div class="pokedex__left__botoes__pt2">
-                        <div class="pokedex__left__botoes__telaVerde"></div>
-
-                        <div class="pokedex__left__botoes__buttonDirections"></div>
-                    </div>
-                </div>
-
-            
-
+        <section class="primeirapartemain">
+            <div class="pesquisar">
+                <input type="text" placeholder="ID ou NOME">
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
             </div>
 
-
-
-            <div class="pokedex__middle"></div>
-            
-            <div class="pokedex__right">
-                <div class="telainformacoes">
-                    <h2 class="nome">_nome_</h2> 
-                    <h3 class="id">_id_</h3>
-                </div>
-
-                <div class="botoesazuis"></div>
-
-              
-                <ul class="entradasdear">
-                    <li></li>
-                    <li></li>
-                </ul>
-                
+            <div class="informacoespokemom">
+                <div class="informacoespokemomPt2"></div>
             </div>
 
-
-
-
-
+            
+            <div class="evolucoes">
+                <h2>EVOLUÇÕES</h2>
+            </div>
         </section>
 
-        <button class="carregar">Carregar</button>
+
+
     </main>
-    
-    <script src="scripts.js/loadpk.js"></script>
 </body>
 </html>

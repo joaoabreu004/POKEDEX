@@ -1,5 +1,5 @@
 function loadpokemon(){
-    let url = 'https://pokeapi.co/api/v2/pokemon/38'; 
+    let url = 'https://pokeapi.co/api/v2/pokemon/172'; 
     fetch(url)
         .then((response) => {
             return response.json(); 
